@@ -1,0 +1,6 @@
+.visual .swiper-button-prev { background:url('../img/left_arrow.png') no-repeat 0 0;
+background-size:100%; opacity:30%}
+.visual .swiper-button-prev:hover {opacity:80%}
+.visual .swiper-button-next {background:url('../img/right_arrow.png') no-repeat 0 0;
+background-size:100%; opacity:30%}
+.visual .swiper-button-next:hover {opacity:80%}

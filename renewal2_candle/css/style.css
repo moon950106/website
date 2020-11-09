@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {min-width:1280px;}
+.header {height:50px; }
+.header .header_inner {position:relative; height:50px; width:1280px; margin:0 auto; line-height: 50px; }
+.header .header_inner .topmenu {position:absolute; right:78px;}
+.header .header_inner .topmenu > ul {overflow:hidden}
+.header .header_inner .topmenu > ul > li {float:left; padding-left:35px;}
+.header .header_inner .topmenu > ul > li > a {display:block; font-size:13px;}
+.header .header_inner .topmenu > ul > li > input {
+	border-bottom:1px solid #ececec; margin-left: 10px; width:100px;}
+.header .header_inner .topmenu > ul > li:last-child::before {
+	content:""; 
+	display:inline-block;
+	background:url('../img/header_search.png') no-repeat 0 0;
+	background-size:100%;
+	width:18px; height:18px;
+	margin:0 auto;
+	text-align:center;
+	vertical-align: middle
+}
+
+.main_wrap {width:1280px; margin:0 auto;}
+.main_wrap .sidemenu {position:fixed; width:200px; height:100%; padding:0 0 0 15px; z-index:999}
+.main_wrap .sidemenu .logo {}
+.main_wrap .sidemenu .setmenu {margin-top:65px}
+.main_wrap .sidemenu .setmenu > ul {}
+.main_wrap .sidemenu .setmenu > ul > li {margin-bottom:40px;}
+.main_wrap .sidemenu .setmenu > ul > li > span {}
+.main_wrap .sidemenu .setmenu > ul > li > ul {margin-top:23px}
+.main_wrap .sidemenu .setmenu > ul > li > ul > li {padding:2px }
+.main_wrap .sidemenu .setmenu > ul > li > ul > li > a {font-size:13px;}
+
+.main_wrap .contents {position:relative; top:0; left:0;
+padding-left:200px
+}
+.main_wrap .contents .section {}
+.main_wrap .contents .visual { width:1080px; height:1030px; }
+.main_wrap .contents .visual .inner {position:relative; top:0; left:0}
+.main_wrap .contents .visual .inner .txt1 {position:absolute; top:89px; left:78px; }
+.main_wrap .contents .visual .inner .txt1 > p {font-size:27px; font-family: 'KBIZmjo L'; color:#575451}
+.main_wrap .contents .visual .inner .txt1 > img {width:573px; height:73px; 
+}
+.main_wrap .contents .visual .inner .txt2  {position:absolute; top:154px; width:343px; right:60px; }
+.main_wrap .contents .visual .inner .txt2 > img {margin-bottom:69px;}
+.main_wrap .contents .visual .inner .txt2 > p {font-family: 'NanumSquareR'; text-align: center; line-height:25px
+}
+.main_wrap .contents .visual .inner .txt3 {position:absolute; top: 145px; right:66px; text-align:center; font-weight: bold; font-family: 'MapoGoldenPier';}
+.main_wrap .contents .visual .inner .txt3 .smtxt {font-size:15px; margin:27px 0; }
+.main_wrap .contents .visual .inner .txt3 .smtxt > p:nth-child(1) {font-size:20px}
+.main_wrap .contents .visual .inner .txt3 .smtxt > p:nth-child(2) {}
+.main_wrap .contents .visual .inner .txt3 .smtxt > p:nth-child(3) {font-size:27px;
+margin:43px 0 112px 0}
+.main_wrap .contents .visual .inner .txt3 .smtxt > p:nth-child(4) {}
+.main_wrap .contents .visual .inner .txt3 .box {border:2px solid #be5d6e; width:94px; height:32px; margin:0 auto;}
+.main_wrap .contents .visual .inner .txt3 .box > a {display:block; font-size:12px; font-style:italic; line-height:32px
+}
+.main_wrap .contents .visual .inner .backimg {position:relative; top:0; left:0}
+.main_wrap .contents .visual .inner .backimg > img:last-child {position:absolute; bottom:57px; right:187px }
+.main_wrap .contents .visual .inner .txt4 {position:absolute; top:202px; left:50px;}
+.main_wrap .contents .visual .inner .txt4 .smtxt > div > p {display:inline-block;} 
+.main_wrap .contents .visual .inner .txt4 .smtxt:nth-child(1) {font-size:60px; font-family: 'NanumSquareL';}
+.main_wrap .contents .visual .inner .txt4 .smtxt:nth-child(2) {font-size:24px; color:#575451; margin:47px 0 261px 0;}
+.main_wrap .contents .visual .inner .txt4 .smtxt:nth-child(3) {font-size:16px; opacity:70%}
+.main_wrap .contents .visual .inner .txt4 .smtxt .red {color:#c82f2f; }
+.main_wrap .contents .visual .inner .txt4 .smtxt:first-child .red {margin-right:-12px;}
+
+.main_wrap .contents .visual .inner .swiper_pagingbox {position:absolute; top:19px; right:23px; }
+.main_wrap .contents .visual .inner .swiper_pagingbox .swiper-pagination-bullet {width:10px; height: 1px; display:table; border:1px solid #757575; }
+.main_wrap .contents .visual .inner .swiper_pagingbox .swiper-pagination-bullet > span {display:table-cell; vertical-align:middle; }
+.main_wrap .contents .visual .inner .swiper_pagingbox .swiper-pagination-bullet-active {width:20px; height: 1px; border:1px solid #757575; transform: translateX(-10px) }
+.main_wrap .contents .visual .inner .swiper_pagingbox .swiper-pagination-bullet + .swiper-pagination-bullet {margin-top:7px}
+
+
+
+
+
+
+.main_wrap .contents .page1 {height:3161px; font-family: 'KBIZmjo M';}
+.main_wrap .contents .page1 .shop {position:relative; top:0; left:0; }
+.main_wrap .contents .page1 .shop > a {display:block}
+.main_wrap .contents .page1 .shop > a > p {opacity: 80%}/*shop 공통*/
+
+.main_wrap .contents .page1 .shop .box {overflow:hidden}
+
+.main_wrap .contents .page1 .shop .diffuser {position:absolute; left:287px; width:792px; height:527px; }
+.main_wrap .contents .page1 .shop .diffuser > a > img {}
+.main_wrap .contents .page1 .shop .seta > p {font-size:30px; position: absolute; right: 12px; top: 527px;}
+
+.main_wrap .contents .page1 .shop .candle {position:absolute; top:610px;   }
+.main_wrap .contents .page1 .shop .candle > a > img {}
+.main_wrap .contents .page1 .shop .candle > a > p {position:absolute; top:61px; width:584px; text-align: center; font-size:45px; }
+
+.main_wrap .contents .page1 .shop .warmer {position:absolute; top:1390px; left:439px; }
+.main_wrap .contents .page1 .shop .warmer > a > img {}
+.main_wrap .contents .page1 .shop .warmer > a > p {position:absolute; top:-78px; left:-10px; font-size:151px; opacity:45%;}
+
+.main_wrap .contents .page1 .shop .car {position:absolute; top:2160px; width:880px; height:735px;}
+.main_wrap .contents .page1 .shop .car > a > img {}
+.main_wrap .contents .page1 .shop .setb > p {transform: rotate(90deg) translate(42px, -473px); font-size:48px; position:absolute; top:2638px; left:254px}
+
+.main_wrap .shop .box > a > img {
+    transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out; 
+}
+.main_wrap .shop .box:hover > a > img {
+      transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+
+.main_wrap .contents .page2 {height:1022px;}
+.main_wrap .contents .page2 .banner { width:1080px;}
+.main_wrap .contents .page2 .banner .franchise {background:url(../img/page2_visual.jpeg) no-repeat center center fixed; height:304px; opacity:70%;  }
+.main_wrap .contents .page2 .banner .franchise .hd1 {line-height:304px; color:#fff; font-size:55px; font-family: 'NanumSquareR'; text-align: center; width:1080px;
+}
+
+.main_wrap .contents .page2 .cont {width:1080px}
+.main_wrap .contents .page2 .cont .hd2 {padding:70px 0; opacity:50%; font-size:23px; text-align: center;}
+.main_wrap .contents .page2 .cont .boxset {}
+.main_wrap .contents .page2 .cont .boxset > ul {overflow:hidden}
+.main_wrap .contents .page2 .cont .boxset > ul > li {float:left; padding:0 60.5px; }
+.main_wrap .contents .page2 .cont .boxset > ul > li > a {}
+.main_wrap .contents .page2 .cont .boxset > ul > li > a .box {
+	border-top:3px solid #8c7450; width:238px; height:312px;
+	border-bottom:3px solid #8c7450;}
+.main_wrap .contents .page2 .cont .boxset > ul > li > a .box .txt {padding:45px 0; text-align: center;}
+.main_wrap .contents .page2 .cont .boxset > ul > li > a .box .txt > li {font-family: 'KBIZmjo M';}
+.main_wrap .contents .page2 .cont .boxset > ul > li > a .box .txt > li:nth-child(1) {font-size:22px; font-style:italic; opacity:50%; }
+.main_wrap .contents .page2 .cont .boxset > ul > li > a .box .txt > li:nth-child(2) {font-size:14px; margin:37px 0 70px 0}
+.main_wrap .contents .page2 .cont .boxset > ul > li > a .box .txt > li:nth-child(3) {font-size:11px; }
+.main_wrap .contents .page2 .cont .boxset > ul > li > a .box .txt > li:nth-child(3) > span {display:block; padding:4px 0;}
+/*.main_wrap .contents .page2 .cont .boxset > ul > li:nth-child(3) > a .box .txt > li:last-child {border:1px solid #f00}*/
+
+.main_wrap .contents .page3 {height:809px;}
+.main_wrap .contents .page3 > ul {overflow: hidden; display:flex}
+.main_wrap .contents .page3 > ul > li {position:relative;}
+.main_wrap .contents .page3 > ul > li > a {display:block}
+.main_wrap .contents .page3 > ul > li > a > img {width:100%}
+.main_wrap .contents .page3 > ul > li > a > .box {background:#4f4f4f; width:360px; height:580px; color:#fff; position:absolute; top:0; left:0; opacity: 70%;  overflow: hidden; visibility:hidden; transition:linear}
+.main_wrap .contents .page3 > ul > li > a:hover .box {visibility:visible; }
+.main_wrap .contents .page3 > ul > li > a > .box .hd3 {font-size:158px; overflow: hidden; margin-left:-35px; font-family: 'NanumSquareB'; letter-spacing: -0.075em; padding-top: 25px;}
+.main_wrap .contents .page3 > ul > li > a > .box .txtset {text-align: center; font-style:italic;  }
+.main_wrap .contents .page3 > ul > li > a > .box .txtset .txt {display: inline-block; text-align: left;}
+.main_wrap .contents .page3 > ul > li > a > .box .txtset .tit {font-size:35px; height:150px;  }
+.main_wrap .contents .page3 > ul > li > a > .box .txtset .tit > p {}
+.main_wrap .contents .page3 > ul > li > a > .box .txtset .tit > p:first-child {font-size:35px;}
+.main_wrap .contents .page3 > ul > li > a > .box .txtset .tit > p:last-child {font-size:21px; margin-top:27px}
+.main_wrap .contents .page3 > ul > li > a > .box .txtset .cont {font-size:21px; letter-spacing: -0.05em;}
+.main_wrap .contents .page3 > ul > li > a > .box .txtset .cont > p {font-size:12px;  line-height: 14px; padding-bottom:10px}
+
+.main_wrap .contents .footer {}
+.main_wrap .contents .footer .box {border-top:1px solid #9aa28a; width:1080px; height:133px;}
+.main_wrap .contents .footer .box .cont {padding:0 95px; display:inline-block; margin-top:30.5px}
+/*
+수직정렬하는 방법 중 하나
+: 자식에 display:inline-block 주고 (부모의 height-자식 height)/2 한 값을 margin-top으로 주면 됨.
+margin-top이 아닌 margin을 줄 경우 수평정렬까지 됨.
+*/
+.main_wrap .contents .footer .box .cont > img {margin-right:72px}
+.main_wrap .contents .footer .box .cont > p {display:inline-block; text-align:left; line-height:24px; vertical-align: middle}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
