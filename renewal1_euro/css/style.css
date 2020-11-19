@@ -28,7 +28,7 @@ overflow:hidden; position:absolute; top:45px; left:40px;}
     padding-right:20px;
 }
 .header .header_inner .left_nav li > input {
-    width:100%;  color:#8e8d8d; font-size:14px;
+    width:100%;  color:#8e8d8d; font-size:14px; margin-top:3px;
 }
 
 .header .header_inner .logo {position:absolute; top:34px; left:553px;}
