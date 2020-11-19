@@ -81,9 +81,11 @@ left:173px;
 font-size:26.78px; 
 z-index:1000;
 }
+/*
 .visual .bg .btn {position:absolute; top:464px; left:153px;
 width:118px; height:28px; background:url('../img/more.png') no-repeat 0 0; z-index:1000;
 }
+*/
 .visual .bg .starset {position:absolute;
 top:0; left:180px}
 .visual .bg .starset .start {vertical-align:top;}
