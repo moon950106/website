@@ -76,8 +76,8 @@ font-size:28px; font-family:'MapoGoldenPier'}
 	background: url(../img/mainbackground.png) no-repeat 0 0;	
 	}
 .visual .bg p {position:absolute; 
-top:405px;
-left:174px;
+top:416px;
+left:165px;
 font-size:26.78px; 
 z-index:1000;
 }
@@ -145,7 +145,7 @@ color:#fff; position:relative; left:calc(50% / 3); line-height:2
 .page.p1 .cont .direction.rt .rtset .titinfo {position:absolute; top:294px; left:134px;}
 .page.p1 .cont .direction.rt .rtset .titinfo .hd4 {font-size:45px; margin-left: 12px; text-indent: -15px;}
 .page.p1 .cont .direction.rt .rtset .titinfo .titsv { font-size:14px;
-margin:25px 0 0 20px; font-style: italic; text-indent: -8px;
+margin:25px 0 0 20px; text-indent: -8px;
 }
 .page.p1 .cont .direction.rt .rtset .titinfo .titsv > p {padding:2px }
 .page.p1 .cont .direction.rt .rtset .titinfo .titsv > p:nth-child(n + 3) { font-style:normal}
@@ -171,6 +171,7 @@ display:flex}
 	background-size:100%;
 	width:6px; height:16px;
 	margin:0 16px;
+	vertical-align: middle;
 }
 .page .cont .direction .btnset .btn.small:hover {
 content:""; display:inline-block; background:url('../img/btnhoversmall.png') no-repeat 0 center;  background-size:100%;}
@@ -178,8 +179,8 @@ content:""; display:inline-block; background:url('../img/btnhoversmall.png') no-
 content:""; display:inline-block; background:url('../img/btnhover.png') no-repeat 0 center;  background-size:100%;}
 .page .cont .direction .infolist dt {font-size:24px; margin-bottom:20px;  }
 .page .cont .direction .infolist dt ~ dt {margin-top:90px;}
-.page .cont .direction .infolist dd {margin-top:10px; font-size:16px; font-family: 'SangSangBodyOTFL'; }
-
+.page .cont .direction .infolist dd {margin-top:10px; font-size:16px; font-family: 'NanumSquareR';}
+.page .cont .direction .infolist dd:last-child {line-height:22px}
 
 .page.p2 .cont .direction.lt .ltset {}
 .page.p2 .cont .direction.lt .ltset .p2tit {}

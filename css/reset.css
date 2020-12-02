@@ -27,6 +27,13 @@
 }
 
 @font-face {
+  font-family: 'NanumSquareR.ttf';
+  src: url("../font/NanumSquareR.ttf") format("truetype");
+  font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
   font-family: 'MapoGoldenPier';
   src: url("../font/MapoGoldenPier.eot");
   src: url("../font/MapoGoldenPier.eot?#iefix") format("embedded-opentype"), url("../font/MapoGoldenPier.woff") format("woff"), url("../font/MapoGoldenPier.ttf") format("truetype");
@@ -51,8 +58,7 @@ html, body {
   padding: 0; }
 
 body {
-  font: normal 100%/1.2 "SangSangBodyOTFL"; letter-spacing: -0.05em;
-
+  font: normal 100%/1.2 "NanumSquareR"; letter-spacing: -0.05em;
 	}
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, select, label, img, figure {
   margin: 0;
